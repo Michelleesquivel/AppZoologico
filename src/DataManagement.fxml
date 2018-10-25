@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DataManagement">
+   <children>
+      <TableView layoutX="58.0" layoutY="64.0" prefHeight="315.0" prefWidth="250.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Recinto" />
+          <TableColumn prefWidth="174.0" text="Dato Curioso" />
+        </columns>
+      </TableView>
+      <Text layoutX="234.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestionar Dato Curioso" />
+      <ScrollBar layoutX="308.0" layoutY="90.0" orientation="VERTICAL" prefHeight="290.0" prefWidth="14.0" />
+      <Button layoutX="418.0" layoutY="90.0" mnemonicParsing="false" text="Editar dato curioso" />
+      <Button layoutX="418.0" layoutY="138.0" mnemonicParsing="false" text="Agregar dato curioso" />
+      <Button layoutX="414.0" layoutY="187.0" mnemonicParsing="false" text="Eliminar dato curioso" />
+   </children>
+</AnchorPane>
